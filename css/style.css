@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   box-sizing: border-box;
   margin: 0px;
@@ -19,6 +20,7 @@ header {
   min-width: 320px;
   height: 334px;
   text-align: center;
+  background: linear-gradient(207.8deg, #201e1c 16.69%, #f7931a 100%);
 }
 header img {
   width: 150px;
@@ -34,4 +36,236 @@ header .header--title--container {
   margin-top: 40px;
   text-align: center;
   align-self: center;
+}
+header .header--title--container h1 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: #fff;
+}
+header .header--title--container p {
+  margin-top: 25px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #ffe9d5;
+}
+header .header--title--container .header--button {
+  position: absolute;
+  left: calc(50% - 118px);
+  top: 270px;
+  display: block;
+  margin-top: 35px;
+  padding: 15px;
+  width: 229px;
+  height: 48px;
+  background-color: #faf8f7;
+  box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+  border: none;
+  border-radius: 6px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #282623;
+}
+header .header--title--container .header--button span {
+  display: inline-block;
+  width: 13px;
+  height: 8px;
+  margin-left: 10px;
+  background-image: url("/assets/icons//arrow_down.svg");
+}
+
+main {
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  background-color: #faf8f7;
+}
+main .backgroundImg {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  background-image: url("/assets/img/bitcoin.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+main .main-exchange-container {
+  width: 100%;
+  height: auto;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+main .main-exchange-container .main-exchange-container--title {
+  width: 90%;
+  min-width: 288px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+main .main-exchange-container .main-exchange-container--title h2 {
+  margin-bottom: 30px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: #282623;
+}
+main .main-exchange-container .main-exchange-container--title p {
+  margin-bottom: 30px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.6rem;
+  color: #757575;
+}
+main .main-exchange-container .main-currenct-table {
+  width: 70%;
+  min-width: 235px;
+  max-width: 500px;
+  height: 360px;
+  margin: 0 auto;
+  font-family: "Inter", sans-serif;
+}
+main .main-exchange-container .main-currenct-table .currency-table--title {
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 2.3rem;
+  color: #F7931A;
+}
+main .main-exchange-container .main-currenct-table .currency-table--container {
+  width: 90%;
+  min-width: 230px;
+  max-width: 300px;
+  height: 250px;
+  margin: 0 auto;
+}
+main .main-exchange-container .main-currenct-table .currency-table--container .table__top-left {
+  border-radius: 15px 0 0 0;
+}
+main .main-exchange-container .main-currenct-table .currency-table--container .table__top-right {
+  border-radius: 0 15px 0 0;
+}
+main .main-exchange-container .main-currenct-table .currency-table--container .table__bottom-left {
+  border-radius: 0 0 0 15px;
+}
+main .main-exchange-container .main-currenct-table .currency-table--container .table__bottom-right {
+  border-radius: 0 0 15px 0;
+}
+main .main-exchange-container .main-currenct-table .currency-table--container .table__right {
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.7rem;
+  color: #282623;
+}
+main .main-exchange-container .main-currenct-table .currency-table--container .down {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-left: 10px;
+  background-image: url("/assets/icons/trending-down 1.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+main .main-exchange-container .main-currenct-table .currency-table--container .up {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-left: 10px;
+  background-image: url("/assets/icons/trending-up 1.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+main .main-exchange-container .main-currenct-table .currency-table--container .currency-table--date {
+  width: 190px;
+  height: 30px;
+  margin: 0 auto;
+  margin-top: 15px;
+  padding: 8px;
+  background-color: #ffe9d5;
+  border-radius: 8px;
+}
+main .main-exchange-container .main-currenct-table .currency-table--container .currency-table--date p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #282623;
+}
+main .main-exchange-container .main-currenct-table .currency-table--container table {
+  width: 100%;
+  height: 100%;
+}
+main .main-exchange-container .main-currenct-table .currency-table--container table td {
+  width: 50%;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.9rem;
+  color: #bababa;
+  background-color: #fff;
+}
+main .main-product-detail {
+  position: relative;
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  padding: 20px 10px;
+  background-color: #201e1c;
+}
+main .main-product-detail .product-deails--batata-logo {
+  position: absolute;
+  width: 40px;
+  height: 25px;
+  top: -10px;
+  left: calc(50% - 20px);
+  background-image: url(/assets/icons/batata.svg);
+}
+main .main-product-detail .product-detail--title {
+  width: 90%;
+  min-width: 288px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+}
+main .main-product-detail .product-detail--title h2 {
+  margin-bottom: 20px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: #fff;
+}
+main .main-product-detail .product-detail--title p {
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+  font-weight: 500´x;
+  line-height: 1.8rem;
+  color: #808080;
+}
+
+.product-details--card {
+  width: 90%;
+  min-width: 288px;
+  max-width: 400px;
+  height: auto;
+  margin: 15px auto;
+  padding: 15px;
+  background-color: #282623;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba 0, 0, 0, 0.16;
+}
+.product-details--card .product--card-title {
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.8;
+  color: #fff;
+}
+.product-details--card .product--card-body {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #808080;
 }/*# sourceMappingURL=style.css.map */
